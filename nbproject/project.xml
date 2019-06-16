@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.j2ee.clientproject</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/car-project/1">
+            <name>Client4</name>
+            <minimum-ant-version>1.6.5</minimum-ant-version>
+            <source-roots>
+                <root id="src.dir" name="Пакеты исходных кодов"/>
+            </source-roots>
+            <test-roots>
+                <root id="test.src.dir" name="Тесты"/>
+            </test-roots>
+            <included-library dirs="200">file.reference.javase-2.0.jar</included-library>
+            <included-library dirs="200">file.reference.qrgen-1.4.jar</included-library>
+            <included-library dirs="200">file.reference.zxing-core-1.7.jar</included-library>
+            <included-library dirs="200">file.reference.zxing-j2se-1.7.jar</included-library>
+            <included-library dirs="200">file.reference.zxing.jar</included-library>
+            <included-library dirs="200">file.reference.poi-4.1.0.jar</included-library>
+            <included-library dirs="200">file.reference.poi-examples-4.1.0.jar</included-library>
+            <included-library dirs="200">file.reference.poi-excelant-4.1.0.jar</included-library>
+            <included-library dirs="200">file.reference.poi-ooxml-4.1.0.jar</included-library>
+            <included-library dirs="200">file.reference.poi-ooxml-schemas-4.1.0.jar</included-library>
+            <included-library dirs="200">file.reference.poi-scratchpad-4.1.0.jar</included-library>
+            <included-library dirs="200">file.reference.xmlbeans-3.1.0.jar</included-library>
+            <included-library dirs="200">file.reference.commons-codec-1.12.jar</included-library>
+            <included-library dirs="200">file.reference.commons-collections4-4.3.jar</included-library>
+            <included-library dirs="200">file.reference.commons-compress-1.18.jar</included-library>
+            <included-library dirs="200">file.reference.JavaLibrary4.jar</included-library>
+            <included-library dirs="200">file.reference.LabelLibEJB.jar</included-library>
+            <included-library dirs="200">reference.JavaLibrary4.jar</included-library>
+            <included-library dirs="200">reference.LabelLibEJB.jar</included-library>
+        </data>
+        <references xmlns="http://www.netbeans.org/ns/ant-project-references/1">
+            <reference>
+                <foreign-project>JavaLibrary4</foreign-project>
+                <artifact-type>jar</artifact-type>
+                <script>build.xml</script>
+                <target>jar</target>
+                <clean-target>clean</clean-target>
+                <id>jar</id>
+            </reference>
+            <reference>
+                <foreign-project>LabelLibEJB</foreign-project>
+                <artifact-type>jar</artifact-type>
+                <script>build.xml</script>
+                <target>jar</target>
+                <clean-target>clean</clean-target>
+                <id>jar</id>
+            </reference>
+        </references>
+    </configuration>
+</project>
